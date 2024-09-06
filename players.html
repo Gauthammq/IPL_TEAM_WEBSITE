@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Profiles</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(90deg, #522888, #0099cc);
+            padding: 10px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        .content-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .content-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Parallel Grid Layout for Player Profiles */
+        .player-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            gap: 20px;
+        }
+
+        .player-profile {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .player-profile img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .player-profile h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .player-profile p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="kkrlogo.png" alt="Team Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About the Team</a></li>
+                <li><a href="schedule.html">Match Schedules</a></li>
+                <li><a href="players.html">Player Profiles</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="news.html">News & Updates</a></li>
+                <li><a href="fan-zone.html">Fan Zone</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Player Profiles</h2>
+            <div class="player-grid">
+                <div class="player-profile">
+                    <img src="shreyasiyer.png" alt="Shreyas Iyer">
+                    <div>
+                        <h3>Shreyas Iyer</h3>
+                        <p>Role: Batsman</p>
+                        <p>Matches: 116 | Runs: 3127 | Average: 32.23</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="Sunilnarine.png" alt="Sunil Narine">
+                    <div>
+                        <h3>Sunil Narine</h3>
+                        <p>Role: All Rounder</p>
+                        <p>Matches: 177 | Wickets: 180 | Economy: 17.04</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="philsalt.png" alt="Phil Salt">
+                    <div>
+                        <h3>Phil Salt</h3>
+                        <p>Role: Wicket-Keeper</p>
+                        <p>Matches: 21 | Wickets: - | Economy: 34.36</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="manish.png" alt="Manish Pandey">
+                    <div>
+                        <h3>Manish Pandey</h3>
+                        <p>Role: Batsman</p>
+                        <p>Matches: 172 | Wickets: - | Economy: 29.16</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="rinku.png" alt="Rinku Singh">
+                    <div>
+                        <h3>Rinku Singh</h3>
+                        <p>Role: Batsman</p>
+                        <p>Matches: 46 | Wickets: - | Economy: 30.79</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="russel.png" alt="Andre Russel">
+                    <div>
+                        <h3>Andre Russel</h3>
+                        <p>Role: All Rounder</p>
+                        <p>Matches: 127 | Wickets: 115 | Economy: 29.22</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="venky.png" alt="Venkatesh Iyer">
+                    <div>
+                        <h3>Venkatesh Iyer</h3>
+                        <p>Role: All Rounder</p>
+                        <p>Matches: 51 | Wickets: 3 | Economy: 31.57</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="starc.png" alt="Mitchell Starc">
+                    <div>
+                        <h3>Mitchell Starc</h3>
+                        <p>Role: Bowler</p>
+                        <p>Matches: 41 | Wickets: 51 | Economy: 22.29</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="rana.png" alt="Harshit Rana">
+                    <div>
+                        <h3>Harshit Rana</h3>
+                        <p>Role: Bowler</p>
+                        <p>Matches: 21 | Wickets: 25 | Economy: 23.24</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="varun.png" alt="Varun Chakaravarthy">
+                    <div>
+                        <h3>Varun Chakaravarthy</h3>
+                        <p>Role: Bowler</p>
+                        <p>Matches: 71 | Wickets: 83 | Economy: 24.12</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="nitish.png" alt="Nitish Rana">
+                    <div>
+                        <h3>Nitish Rana</h3>
+                        <p>Role: Batsman</p>
+                        <p>Matches: 108 | Wickets: 10 | Economy: 28.65</p>
+                    </div>
+                </div>
+
+                <div class="player-profile">
+                    <img src="raman.png" alt="Nitish Rana">
+                    <div>
+                        <h3>Ramandeep Singh</h3>
+                        <p>Role: All Rounder</p>
+                        <p>Matches:20| Wickets: 6 | Economy: 28.33</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kolkata Knight Riders  Fan Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
